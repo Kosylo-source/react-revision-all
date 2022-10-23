@@ -1,12 +1,12 @@
 import React from 'react';
-import Character from "./components/Character";
+import Characters from "./components/Characters";
+
+
 
 const App = () => {
     return (
         <div>
-        <Character
-            id = {'2'}
-            />
+            <Characters/>
         </div>
     );
 };
