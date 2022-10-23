@@ -1,4 +1,5 @@
 import {useEffect, useState} from "react";
+import Post from "./Post";
 
 
 const Posts = () => {
@@ -12,7 +13,7 @@ const Posts = () => {
 
     return (
         <div>
-            post.map(post => {posts.id})
+            {posts.map((post, index) => <Post key={index} post={post}/>)}
         </div>
     );
 };
