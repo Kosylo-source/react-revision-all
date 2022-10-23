@@ -16,7 +16,7 @@ const details = (post)=>{
 }
     return (
         <div>
-            {post.body && {post.body}}
+            {post.id && <div>{post.body}</div>}
             {posts.map((post, index) => <Post key={index} post={post} details={details}/>)}
         </div>
     );
